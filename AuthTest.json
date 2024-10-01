@@ -2,7 +2,7 @@
     "data": {
         "Schools": {
             "ver": "1.0",
-            "status": "OK",
+            "status": "白名单",
             "whitelist": false
         }
     }
