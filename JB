@@ -1,5 +1,0 @@
-game:GetService("StarterGui"):SetCore("SendNotification", {
-	Title = "提示";
-	Text = "臭白金🤮🤮🤮";
-	Duration = 5;
-})
