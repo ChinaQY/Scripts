@@ -2,8 +2,7 @@
     "data" : {
         "test" : {
             "ver" : "1.0",
-            "status" : "黑名单",
-            "Blacklisted" : true
+            "whitelist" : true
         }
     }
 }
