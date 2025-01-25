@@ -1,9 +1,9 @@
 {
-    "data": {
-        "test": {
-            "ver": "1.0",
-            "status": "黑名单",
-            "Blacklisted": true
+    "data" : {
+        "test" : {
+            "ver" : "1.0",
+            "status" : "黑名单",
+            "Blacklisted" : true
         }
     }
 }
