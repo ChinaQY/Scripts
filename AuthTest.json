@@ -1,9 +1,9 @@
 {
     "data": {
-        "Schools": {
+        "test": {
             "ver": "1.0",
-            "status": "白名单",
-            "whitelist": false
+            "status": "黑名单",
+            "Blacklisted": true
         }
     }
 }
