@@ -4,3 +4,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/
     [4367208330] = "Pressure.luau",
     [6508759464] = "Grace"
 })[game.GameId] or "QYScriptHub")))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/Script1.lua"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/Script2.lua"))()
