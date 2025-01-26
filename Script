@@ -6,5 +6,3 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/
 })[game.GameId] or "QYScriptHub")))()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/Script1.lua"))()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ChinaQY/Scripts/Main/Script2.lua"))()
