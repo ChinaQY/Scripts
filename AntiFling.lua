@@ -57,22 +57,3 @@ for i,v in ipairs(Services.Players:GetPlayers()) do
    end
 end
 Services.Players.PlayerAdded:Connect(PlayerAdded)
-
-local LastPosition = nil
-Services.RunService.Heartbeat:Connect(function()
-   pcall(function()
-       local PrimaryPart = LocalPlayer.Character.PrimaryPart
-       if PrimaryPart.AssemblyLinearVelocity.Magnitude > 250 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 250 then
-           PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0)
-           PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0)
-           PrimaryPart.CFrame = LastPosition
-
-           game.StarterGui:SetCore("ChatMakeSystemMessage", {
-               Text = "You Were Flung Neutralizing Velocity";
-               Color = Color3.fromRGB(255, 0, 0);
-           })
-       elseif PrimaryPart.AssemblyLinearVelocity.Magnitude < 50 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 then
-           LastPosition = PrimaryPart.CFrame
-       end
-   end)
-end)
