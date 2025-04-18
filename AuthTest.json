@@ -1,8 +1,9 @@
 {
-    "data" : {
-        "test" : {
-            "ver" : "1.0",
-            "whitelist" : true
+    "data": {
+        "Test": {
+            "ver": "1.0",
+            "status": "白名单",
+            "whitelist": false
         }
     }
 }
