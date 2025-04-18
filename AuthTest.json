@@ -3,7 +3,7 @@
         "Test" : {
             "ver" : "1.0",
             "status" : "🤔",
-            "whitelist" : true,
+            "whitelist" : true
         }
     }
 }
