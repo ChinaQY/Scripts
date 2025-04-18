@@ -1,11 +1,20 @@
 {
     "data" : {
-        "Test" : {
+        "RD" : {
             "Version" : "1.0",
-            "Whitelist" : true
+            "Blacklist" : true
         },
-        "Bruh" : {
-            "Version" : "1.0"
+        "RFF" : {
+            "Version" : "1.0",
+            "Blacklist" : true
+        },
+        "Pressure" : {
+            "Version" : "1.0",
+            "Blacklist" : true
+        },
+        "Forsaken" : {
+            "Version" : "1.0",
+            "Blacklist" : true
         }
     }
 }
