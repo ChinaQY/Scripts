@@ -1,3 +1,3 @@
 return {
-        [1] = {"codm6565580", true, "test"}
+        [1] = {"", true, "test"}
 }
