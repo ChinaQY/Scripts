@@ -2,8 +2,10 @@
     "data" : {
         "Test" : {
             "Version" : "1.0",
-            "Name" : "🤔",
             "Whitelist" : true
+        },
+        "Bruh" : {
+            "Version" : "1.0"
         }
     }
 }
