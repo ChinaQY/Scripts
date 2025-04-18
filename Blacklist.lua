@@ -9,6 +9,5 @@ return {
         [8] = {"CC_hdcu", true, "LOL"},
         [9] = {"rzc1238", true, "LOL"},
         [10] = {"rzc12378", true, "LOL"},
-        [11] = {"rzc12398", true, "LOL"},
-        [12] = {"codm6565580", true, "LOL"}
+        [11] = {"rzc12398", true, "LOL"}
 }
