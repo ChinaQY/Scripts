@@ -4,12 +4,6 @@
             "ver" : "1.0",
             "status" : "🤔",
             "whitelist" : true
-        },
-        "data" : {
-            "Main" : {
-                "ver" : "1.0",
-                "status" : "😂",
-                "blacklist" : true
         }
     }
 }
