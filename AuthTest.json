@@ -2,8 +2,7 @@
     "data" : {
         "Test" : {
             "ver" : "1.0",
-            "status" : "🤔",
-            "whitelist" : false
+            "status" : "🤔"
         }
     }
 }
