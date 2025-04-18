@@ -1,9 +1,9 @@
 {
     "data" : {
         "Test" : {
-            "ver" : "1.0",
-            "status" : "🤔",
-            "whitelist" : true
+            "Version" : "1.0",
+            "Name" : "🤔",
+            "Whitelist" : true
         }
     }
 }
