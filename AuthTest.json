@@ -7,8 +7,8 @@
         },
         "data" : {
             "Main" : {
-                "ver" : "1.0"
-                "status" : "😂"
+                "ver" : "1.0",
+                "status" : "😂",
                 "blacklist" : true
         }
     }
