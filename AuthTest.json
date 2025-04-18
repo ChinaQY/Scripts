@@ -3,7 +3,7 @@
         "Test": {
             "ver": "1.0",
             "status": "白名单",
-            "whitelist": true
+            "whitelist": true,
         }
     }
 }
