@@ -15,6 +15,10 @@
         "Forsaken" : {
             "Version" : "1.0",
             "Blacklist" : true
+        },
+        "THEFOUNDATION" : {
+            "Version" : "1.0",
+            "Blacklist" : true
         }
     }
 }
