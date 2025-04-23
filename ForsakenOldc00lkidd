@@ -44,7 +44,7 @@ else
                 if Child.SoundId == "rbxassetid://133642201056982" then 
                     if _G.Enable then
                         Child.SoundId = getcustomasset("Forsaken/Old.mp3", false)
-                        Child.Volume = 1
+                        Child.Volume = 1.5
                     else
                         Connection:Destroy()
                     end
