@@ -1,0 +1,58 @@
+local Debris = game:GetService("Debris")
+
+if Connection then 
+    Connection:Disconnect()
+    Connection = nil
+end
+Connection = nil
+
+function Display(text, delete)
+    local message = Instance.new("Message", workspace)
+    message.Text = text
+    Debris:AddItem(message, delete)
+end
+
+if _G.DONOTEXECUTE and _G.DONOTEXECUTE == true then
+    Display("script is currently downloading audio, this might take a while. do not execute this script, please.", 5)
+else
+    if isfolder and makefolder and writefile and isfile and request and getcustomasset then
+        if not isfolder("Forsaken") then
+            makefolder("Forsaken")
+        end
+        
+        if not isfile("Forsaken/Old.mp3") then
+            Display("began downloading last man standing song. this may take up to two minutes!", 5)
+            _G.DONOTEXECUTE = true
+            local SoundData = request({
+                Method = "GET",
+                Url = "https://files.catbox.moe/v3ety3.mp3"
+            }).Body
+            _G.DONOTEXECUTE = nil
+        
+            if SoundData then 
+                writefile("Forsaken/Old.mp3", SoundData)
+                Display("done!", 2)
+            else
+                Display("failed to load. make sure catbox.moe isn't blocked in your region.", 5)
+                return
+            end
+        end
+    
+        local Position : Folder = workspace:FindFirstChild("Themes")
+        Connection = Position.ChildAdded:Connect(function(Child)
+            if Child:IsA("Sound") and Child.Name == "LastSurvivor" then 
+                if Child.SoundId == "rbxassetid://133642201056982" then 
+                    if _G.isEnabled then
+                        Child.SoundId = getcustomasset("Forsaken/Old.mp3", false)
+                        Child.Volume = 1
+                    else
+                        Connection:Destroy()
+                    end
+                end
+            end
+        end)
+    else
+        Display("your explot doesn't support any of the required functions: \n* isfolder\n* makefolder\n* writefile\n* isfile\n* request\n* getcustomasset\nplease, switch your exploit in order to use this script. :(", 10)
+        return
+    end
+end
