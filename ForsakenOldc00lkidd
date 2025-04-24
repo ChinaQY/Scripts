@@ -20,7 +20,7 @@ else
             makefolder("Forsaken")
         end
         
-        if not isfile("Forsaken/c00lkidd.mp3") then
+        if not isfile("Forsaken/Old.mp3") then
             Display("began downloading last man standing song. this may take up to two minutes !", 5)
             _G.DONOTEXECUTE = true
             local SoundData = request({
@@ -30,7 +30,7 @@ else
             _G.DONOTEXECUTE = nil
         
             if SoundData then 
-                writefile("Forsaken/c00lkidd.mp3", SoundData)
+                writefile("Forsaken/Old.mp3", SoundData)
                 Display("done !", 2)
             else
                 Display("failed to load. make sure catbox.moe isn't blocked in your region.", 5)
@@ -43,7 +43,7 @@ else
             if Child:IsA("Sound") and Child.Name == "LastSurvivor" then 
                 if Child.SoundId == "rbxassetid://133642201056982" then 
                     if _G.Enable then
-                        Child.SoundId = getcustomasset("Forsaken/c00lkidd.mp3", false)
+                        Child.SoundId = getcustomasset("Forsaken/Old.mp3", false)
                         Child.Volume = 1
                     else
                         Connection:Destroy()
