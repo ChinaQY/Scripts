@@ -21,7 +21,7 @@ else
         end
         
         if not isfile("Forsaken/c00lkidd.mp3") then
-            Display("began downloading last man standing song. this may take up to two minutes!", 5)
+            Display("began downloading last man standing song. this may take up to two minutes !", 5)
             _G.DONOTEXECUTE = true
             local SoundData = request({
                 Method = "GET",
@@ -31,7 +31,7 @@ else
         
             if SoundData then 
                 writefile("Forsaken/c00lkidd.mp3", SoundData)
-                Display("done!", 2)
+                Display("done !", 2)
             else
                 Display("failed to load. make sure catbox.moe isn't blocked in your region.", 5)
                 return
