@@ -25,7 +25,7 @@ else
             _G.DONOTEXECUTE = true
             local SoundData = request({
                 Method = "GET",
-                URL = "https://files.catbox.moe/sg4vho.mp3"
+                URL = "https://files.catbox.moe/t0tmo3.mp3"
             }).Body
             _G.DONOTEXECUTE = nil
         
