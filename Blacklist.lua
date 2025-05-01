@@ -11,5 +11,6 @@ return {
         [10] = {"rzc12378", true, "LOL"},
         [11] = {"rzc12398", true, "LOL"},
         [12] = {"qazwsxuruu", true, "瞎骂"},
-        [13] = {"ADCZ4xx", true, "LOL"}
+        [13] = {"ADCZ4xx", true, "LOL"},
+        [14] = {"hvck115", true, "LOL"}
 }
