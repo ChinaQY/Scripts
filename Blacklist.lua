@@ -8,6 +8,5 @@ return {
         [7] = {"qazwsxuruu", true, "瞎骂"},
         [8] = {"ADCZ4xx", true, "LOL"},
         [9] = {"TM5418888", true, "牢营长"},
-        [10] = {"codm656558", true, "LOL"},
-        [11] = {"skincasepls", true, "7891"}
+        [10] = {"codm656558", true, "LOL"}
 }
