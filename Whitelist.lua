@@ -1,5 +1,5 @@
 return {
-        [1] = {"jmeoo114514", false, nil}
+        [1] = {"jmeoo114514", false, nil},
         [2] = {"AQ14ABS", true, "LOL"},
         [3] = {"edc12363", true, "LOL"},
         [4] = {"onygfvjop", true, "LOL"},
