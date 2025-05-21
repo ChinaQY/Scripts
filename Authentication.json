@@ -20,10 +20,6 @@
             "Version" : "1.0",
             "Blacklist" : true
         },
-        "Regretevator" : {
-            "Version" : "1.0",
-            "Whitelist" : true
-        },
         "THEFOUNDATION" : {
             "Version" : "1.0",
             "Blacklist" : true
