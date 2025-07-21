@@ -9,6 +9,5 @@ return {
     [8] = {"ADCZ4xx", true, "LOL"},
     [9] = {"TM5418888", true, "牢营长"},
     [10] = {"codm656558", true, "LOL"},
-    [11] = {"guajichina", true, "Httadmin"},
-    [12] = {"codm6565585", true, "ez"}
+    [11] = {"guajichina", true, "Httadmin"}
 }
