@@ -1,2 +1,3 @@
+game.ReplicatedStorage.ASSETS.Audio.UI.snd_BulletHit.Volume = 1
 game.ReplicatedStorage.ASSETS.Audio.UI.snd_BulletHit.SoundId = "rbxassetid://160432334"
 game.ReplicatedStorage.ASSETS.Audio.UI.snd_BulletKill.SoundId = "rbxassetid://2650060636"
