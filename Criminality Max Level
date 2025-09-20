@@ -1,0 +1,7 @@
+game:GetService("RunService").RenderStepped:Connect(function()
+    game.Players.LocalPlayer.leaderstats.Level.Value = 1000
+    game.Players.LocalPlayer.PlayerGui.CoreGUI.LevelFrame.LevelBox.LevelNumber.Text = 1000
+    game.Players.LocalPlayer.PlayerGui.CoreGUI.LevelFrame.Bar.Bar2.Size = UDim2.new(1, 0, 1, 0)
+    game.Players.LocalPlayer.PlayerGui.CoreGUI.LevelFrame.Bar.Max.Visible = true
+    game.Players.LocalPlayer.PlayerGui.CoreGUI.LevelFrame.Bar.Stat.Text = ""
+end)
